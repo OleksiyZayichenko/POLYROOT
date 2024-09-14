@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук коренів рівняння</title>
+</head>
+<body>
+    <h1>Знайти корені рівняння</h1>
+    
+    <form id="equationForm">
+        <label for="equation">Введіть рівняння:</label><br>
+        <input type="text" id="equation" name="equation" placeholder="Наприклад, X3+3X2+3X+1"><br><br>
+
+        <label for="decimalPlaces">Кількість знаків після коми (за замовчуванням 24):</label><br>
+        <input type="number" id="decimalPlaces" name="decimalPlaces" placeholder="24" min="1"><br><br>
+
+        <button type="submit">Знайти корені</button>
+    </form>
+
+    <h2>Корені рівняння:</h2>
+    <p id="rootsOutput">-</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
